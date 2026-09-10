@@ -466,11 +466,11 @@ https://alerquina54105.embedtv.lat/tvbrasil
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",TV Cultura
 https://alerquina54105.embedtv.lat/tvcultura
 
-#EXTINF:-1 group-title="TV ABERTA & REGIONAIS",TV Senado
-https://alerquina54105.embedtv.lat/tvsenado
-
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Futura
 https://alerquina54105.embedtv.lat/futura
+
+#EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Aparecida
+https://www.youtube.com/c/tvaparecidaoficial/live
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",Canal Brasil
 https://alerquina54105.embedtv.lat/canalbrasil
