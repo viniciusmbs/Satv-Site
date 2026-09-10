@@ -43,8 +43,12 @@ const ChannelGrid: React.FC<ChannelGridProps> = ({
   onEditLogo,
 }) => {
   const sortedGroupNames = Object.keys(groupedChannels).sort((a, b) => {
-    const orderA = CATEGORY_ORDER[a] ?? 99;
-    const orderB = CATEGORY_ORDER[b] ?? 99;
+    const upperA = a.toUpperCase();
+    const upperB = b.toUpperCase();
+
+    const orderA = upperA === 'VARIEDADES' ? 99 : (CATEGORY_ORDER[upperA] ?? 50);
+    const orderB = upperB === 'VARIEDADES' ? 99 : (CATEGORY_ORDER[upperB] ?? 50);
+
     if (orderA !== orderB) return orderA - orderB;
     return a.localeCompare(b);
   });
