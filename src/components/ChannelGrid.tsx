@@ -16,12 +16,12 @@ interface ChannelGridProps {
 }
 
 const CATEGORY_ORDER: Record<string, number> = {
-  'DOCUMENTÁRIOS': 1,
-  'ESPN': 2,
-  'ESPORTES': 3,
-  'ESPORTES PPV': 4,
-  'FILMES E SÉRIES': 5,
-  'GERAL': 6,
+  'CANAL': 1,
+  'DOCUMENTÁRIOS': 2,
+  'ESPN': 3,
+  'ESPORTES': 4,
+  'ESPORTES PPV': 5,
+  'FILMES E SÉRIES': 6,
   'HBO': 7,
   'INFANTIS': 8,
   'MÚSICA': 9,
