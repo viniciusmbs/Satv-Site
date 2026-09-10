@@ -161,7 +161,7 @@ export const normalizeCategory = (rawGroup: string, name: string): string => {
     upperName.includes('AGRO') ||
     upperName.includes('FUTURA')
   ) {
-    return 'ABERTA';
+    return 'CANAIS';
   }
 
   return rawGroup.replace(/^CANAIS:\s*/i, '').trim() || 'GERAL';
