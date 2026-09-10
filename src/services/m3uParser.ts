@@ -5,21 +5,7 @@ export const normalizeCategory = (rawGroup: string, name: string): string => {
   const upperName = name.toUpperCase();
   const upperGroup = (rawGroup || '').toUpperCase();
 
-  // 1. Notícias primeiro (para GloboNews, Record News, CNN, etc. não caírem em Canais)
-  if (
-    upperGroup.includes('NOTÍCIA') ||
-    upperGroup.includes('NOTICIA') ||
-    upperGroup.includes('NEWS') ||
-    upperName.includes('NEWS') ||
-    upperName.includes('CNN') ||
-    upperName.includes('GLOBONEWS') ||
-    upperName.includes('GLOBO NEWS') ||
-    upperName.includes('UOL')
-  ) {
-    return 'NOTÍCIAS';
-  }
-
-  // 2. Demais categorias específicas
+  // Precise categories matching the layout from the reference image:
   if (upperName.includes('ESPN')) return 'ESPN';
   if (upperName.includes('HBO') || upperGroup.includes('HBO')) return 'HBO';
   if (upperName.includes('PREMIERE') || upperGroup.includes('PREMIERE')) return 'PREMIERE';
@@ -88,6 +74,18 @@ export const normalizeCategory = (rawGroup: string, name: string): string => {
     return 'INFANTIS';
   }
   if (
+    upperGroup.includes('NOTÍCIA') ||
+    upperGroup.includes('NOTICIA') ||
+    upperGroup.includes('NEWS') ||
+    upperName.includes('NEWS') ||
+    upperName.includes('CNN') ||
+    upperName.includes('GLOBONEWS') ||
+    upperName.includes('GLOBO NEWS') ||
+    upperName.includes('UOL')
+  ) {
+    return 'NOTÍCIAS';
+  }
+  if (
     upperGroup.includes('DOCUMENT') ||
     upperName.includes('DISCOVERY') ||
     upperName.includes('HISTORY') ||
@@ -137,11 +135,8 @@ export const normalizeCategory = (rawGroup: string, name: string): string => {
   ) {
     return 'VARIEDADES';
   }
-
-  // 3. Canais abertos gerais caem em CANAL
   if (
     upperGroup.includes('ABERTA') ||
-    upperGroup.includes('REGIONAIS') ||
     upperGroup.includes('CANAIS') ||
     upperGroup.includes('GERAL') ||
     upperName.includes('GLOBO') ||
@@ -221,6 +216,7 @@ export const parseM3U = (m3uContent: string, customLogos?: CustomLogosMap): Chan
       try {
         const infoLine = line;
         let urlLine = '';
+        // Find next non-empty non-comment line for stream URL
         while (i + 1 < lines.length) {
           const next = lines[++i].trim();
           if (next && !next.startsWith('#')) {
