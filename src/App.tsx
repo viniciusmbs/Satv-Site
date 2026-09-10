@@ -6,7 +6,7 @@ import { getChannelLogo } from './data/channelLogos';
 import Header from './components/Header';
 import SearchBar from './components/SearchBar';
 import ChannelGrid from './components/ChannelGrid';
-import VideoPlayer from './components/VideoPlayer';
+import { FullscreenViewer } from './components/FullscreenViewer';
 import StreamTesterModal from './components/StreamTesterModal';
 import { IconManagerModal } from './components/IconManagerModal';
 import { Check } from 'lucide-react';
@@ -33,13 +33,14 @@ export default function App() {
     }
   });
 
-  // Click behavior: 'new_tab' | 'popup' | 'modal'
+  // Click behavior: 'fullscreen' | 'new_tab' | 'popup'
+  // Defaults to 'fullscreen' (opens in full TV screen with dedicated back button)
   const [clickAction, setClickAction] = useState<ClickAction>(() => {
     try {
       const saved = localStorage.getItem('satv_click_action') as ClickAction;
-      return saved === 'new_tab' || saved === 'popup' || saved === 'modal' ? saved : 'new_tab';
+      return saved === 'fullscreen' || saved === 'new_tab' || saved === 'popup' ? saved : 'fullscreen';
     } catch {
-      return 'new_tab';
+      return 'fullscreen';
     }
   });
 
@@ -254,6 +255,21 @@ export default function App() {
     setShowOnlyFavorites(false);
   };
 
+  // Global D-Pad / Remote control shortcut: Press '/' or 's' to focus search
+  useEffect(() => {
+    const handleGlobalKey = (e: KeyboardEvent) => {
+      if (!selectedChannel && (e.key === '/' || e.key === 's') && document.activeElement?.tagName !== 'INPUT') {
+        const searchInput = document.getElementById('channel-search-input');
+        if (searchInput) {
+          e.preventDefault();
+          searchInput.focus();
+        }
+      }
+    };
+    window.addEventListener('keydown', handleGlobalKey);
+    return () => window.removeEventListener('keydown', handleGlobalKey);
+  }, [selectedChannel]);
+
   return (
     <div className="min-h-screen bg-[#0b0f19] text-gray-100 flex flex-col font-sans selection:bg-red-600 selection:text-white">
       {/* App Header */}
@@ -299,12 +315,10 @@ export default function App() {
         />
       </main>
 
-      {/* Active Video Player Modal */}
-      <VideoPlayer
+      {/* Fullscreen TV View with Back Button */}
+      <FullscreenViewer
         channel={selectedChannel}
         onClose={() => setSelectedChannel(null)}
-        proxyMode={proxyMode}
-        setProxyMode={setProxyMode}
         onPrevChannel={filteredChannels.length > 1 ? handlePrevChannel : undefined}
         onNextChannel={filteredChannels.length > 1 ? handleNextChannel : undefined}
       />
@@ -347,7 +361,7 @@ export default function App() {
           SATV &bull; Vinicius Mendes ® &copy; {new Date().getFullYear()}
         </p>
         <p className="text-[11px] text-slate-600">
-          Suporte para MPEG-TS, HLS (m3u8), HTML5 video e players externos (VLC, MX Player).
+          Suporte completo para Smart TV &bull; D-Pad &bull; MPEG-TS &bull; HLS &bull; Web Embed
         </p>
       </footer>
     </div>

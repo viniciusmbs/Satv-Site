@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+/* TV focus states and smooth OSD animations */
+.tv-card-focus:focus,
+.tv-card-focus:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px #ef4444, 0 10px 25px -5px rgba(239, 68, 68, 0.4);
+  transform: translateY(-4px) scale(1.03);
+  border-color: #ef4444 !important;
+  z-index: 20;
+}
+
+/* Hide scrollbar for TV view */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

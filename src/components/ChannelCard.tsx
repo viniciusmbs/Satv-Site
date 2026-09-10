@@ -65,7 +65,7 @@ const ChannelCard: React.FC<ChannelCardProps> = ({
     );
   };
 
-  const handleOpenModal = (e: React.MouseEvent) => {
+  const handleOpenViewer = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
     onSelect(channel);
@@ -84,15 +84,29 @@ const ChannelCard: React.FC<ChannelCardProps> = ({
     }
   };
 
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      if (clickAction === 'popup') {
+        handleOpenPopup(e as any);
+      } else {
+        onSelect(channel);
+      }
+    }
+  };
+
   return (
     <div
       id={`channel-card-${channel.id || encodeURIComponent(channel.name)}`}
-      className="group relative bg-[#151c2c] hover:bg-[#1a2337] border border-slate-700/60 hover:border-red-500/60 rounded-xl p-3 flex flex-col items-center justify-between text-center transition-all duration-200 hover:-translate-y-1 hover:shadow-xl hover:shadow-red-950/40"
+      tabIndex={0}
+      onKeyDown={handleKeyDown}
+      className="group tv-card-focus relative bg-[#151c2c] hover:bg-[#1a2337] border border-slate-700/60 hover:border-red-500/60 rounded-xl p-3 flex flex-col items-center justify-between text-center transition-all duration-200 hover:-translate-y-1 hover:shadow-xl hover:shadow-red-950/40 cursor-pointer outline-none"
     >
       {/* Top action bar: Favorite, Pop-up & Copy */}
       <div className="w-full flex items-center justify-between gap-1 mb-2 z-10">
         <button
           onClick={handleFavorite}
+          tabIndex={-1}
           className={`p-1 rounded-md transition-colors ${
             isFavorite
               ? 'text-amber-400 hover:text-amber-300 bg-amber-400/10'
@@ -107,6 +121,7 @@ const ChannelCard: React.FC<ChannelCardProps> = ({
           {/* Change channel logo button */}
           <button
             onClick={handleEditLogo}
+            tabIndex={-1}
             className="p-1 text-slate-500 hover:text-red-400 rounded-md hover:bg-slate-800/80 transition"
             title="Mudar ícone deste canal"
           >
@@ -116,6 +131,7 @@ const ChannelCard: React.FC<ChannelCardProps> = ({
           {/* Direct Pop-up button */}
           <button
             onClick={handleOpenPopup}
+            tabIndex={-1}
             className="p-1 text-slate-400 hover:text-amber-300 rounded-md hover:bg-slate-800/80 transition"
             title="Abrir em Janela Pop-up do navegador"
           >
@@ -125,6 +141,7 @@ const ChannelCard: React.FC<ChannelCardProps> = ({
           {/* Copy URL */}
           <button
             onClick={handleCopy}
+            tabIndex={-1}
             className="p-1 text-slate-400 hover:text-white rounded-md hover:bg-slate-800/80 transition"
             title="Copiar link direto do canal"
           >
@@ -139,8 +156,9 @@ const ChannelCard: React.FC<ChannelCardProps> = ({
         target="_blank"
         rel="noopener noreferrer"
         onClick={handleCardClick}
+        tabIndex={-1}
         className="w-full flex flex-col items-center cursor-pointer text-decoration-none outline-none"
-        title={`Assistir ${channel.name} (${clickAction === 'new_tab' ? 'Abrir em Nova Aba' : clickAction === 'popup' ? 'Abrir em Pop-up' : 'Abrir no Player'})`}
+        title={`Assistir ${channel.name} (${clickAction === 'new_tab' ? 'Abrir em Nova Aba' : clickAction === 'popup' ? 'Abrir em Pop-up' : 'Assistir em Tela Cheia com Voltar'})`}
       >
         {/* Logo container */}
         <div className="relative w-full h-16 sm:h-20 flex items-center justify-center p-2 bg-slate-900/80 rounded-lg overflow-hidden mb-2 group-hover:bg-slate-900/50 border border-slate-800/60 transition">
@@ -158,7 +176,7 @@ const ChannelCard: React.FC<ChannelCardProps> = ({
             <div className="flex items-center space-x-1.5 px-2.5 py-1.5 rounded-full bg-red-600 text-white shadow-lg transform scale-90 group-hover:scale-100 transition-transform">
               <Play className="w-3.5 h-3.5 fill-white" />
               <span className="text-[11px] font-bold">
-                {clickAction === 'new_tab' ? 'Nova Aba' : clickAction === 'popup' ? 'Pop-up' : 'Player'}
+                {clickAction === 'new_tab' ? 'Nova Aba' : clickAction === 'popup' ? 'Pop-up' : 'Assistir'}
               </span>
             </div>
           </div>
@@ -179,29 +197,31 @@ const ChannelCard: React.FC<ChannelCardProps> = ({
       </span>
 
       {/* Quick Launch footer buttons on each card */}
-      <div className="w-full mt-2.5 pt-2 border-t border-slate-800/70 flex items-center justify-between gap-1 text-[10px]">
+      <div className="w-full mt-2.5 pt-2 border-t border-slate-800/70 flex items-center justify-between gap-1.5 text-[10px]">
+        {/* Fullscreen with back button */}
+        <button
+          onClick={handleOpenViewer}
+          tabIndex={-1}
+          className="flex-1 py-1.5 px-1.5 rounded bg-red-600 hover:bg-red-500 text-white flex items-center justify-center space-x-1 transition font-bold shadow-sm"
+          title="Abrir em tela cheia com botão Voltar"
+        >
+          <Tv className="w-3 h-3" />
+          <span>Assistir</span>
+        </button>
+
         {/* Native New Tab link button */}
         <a
           href={channel.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex-1 py-1 px-1.5 rounded bg-slate-800/70 hover:bg-red-600/30 hover:text-red-300 text-slate-300 flex items-center justify-center space-x-1 transition font-medium"
+          tabIndex={-1}
+          className="py-1.5 px-2 rounded bg-slate-800 hover:bg-slate-700 text-slate-300 flex items-center justify-center space-x-1 transition font-medium"
           title="Abrir diretamente em nova aba do navegador"
           onClick={(e) => e.stopPropagation()}
         >
-          <ExternalLink className="w-2.5 h-2.5" />
+          <ExternalLink className="w-3 h-3" />
           <span>Aba</span>
         </a>
-
-        {/* Player modal button */}
-        <button
-          onClick={handleOpenModal}
-          className="flex-1 py-1 px-1.5 rounded bg-slate-800/70 hover:bg-slate-700 hover:text-white text-slate-300 flex items-center justify-center space-x-1 transition font-medium"
-          title="Abrir no player incorporado do app"
-        >
-          <Tv className="w-2.5 h-2.5 text-red-400" />
-          <span>Player</span>
-        </button>
       </div>
     </div>
   );

@@ -13,6 +13,6 @@ export interface GroupedChannels {
 
 export type ProxyMode = 'corsproxy' | 'direct' | 'server';
 
-export type ClickAction = 'new_tab' | 'popup' | 'modal';
+export type ClickAction = 'fullscreen' | 'new_tab' | 'popup';
 
 export type CustomLogosMap = Record<string, string>;

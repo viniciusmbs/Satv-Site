@@ -72,16 +72,16 @@ const Header: React.FC<HeaderProps> = ({
                 Ao clicar:
               </span>
               <button
-                onClick={() => setClickAction('new_tab')}
+                onClick={() => setClickAction('fullscreen')}
                 className={`flex items-center space-x-1 px-2.5 py-1 rounded-lg transition font-medium ${
-                  clickAction === 'new_tab'
+                  clickAction === 'fullscreen'
                     ? 'bg-red-600 text-white shadow-sm'
                     : 'text-slate-300 hover:text-white'
                 }`}
-                title="Abre a página do canal em uma nova aba do navegador"
+                title="Abre o canal em tela cheia com botão de Voltar e controle remoto"
               >
-                <ExternalLink className="w-3 h-3" />
-                <span>Nova Aba</span>
+                <Tv className="w-3 h-3" />
+                <span>Tela Cheia (com Voltar)</span>
               </button>
 
               <button
@@ -98,16 +98,16 @@ const Header: React.FC<HeaderProps> = ({
               </button>
 
               <button
-                onClick={() => setClickAction('modal')}
+                onClick={() => setClickAction('new_tab')}
                 className={`flex items-center space-x-1 px-2.5 py-1 rounded-lg transition font-medium ${
-                  clickAction === 'modal'
+                  clickAction === 'new_tab'
                     ? 'bg-red-600 text-white shadow-sm'
                     : 'text-slate-300 hover:text-white'
                 }`}
-                title="Abre o canal no reprodutor integrado na página"
+                title="Abre a página do canal em uma nova aba do navegador"
               >
-                <Tv className="w-3 h-3" />
-                <span>Player</span>
+                <ExternalLink className="w-3 h-3" />
+                <span>Nova Aba</span>
               </button>
             </div>
 
@@ -120,9 +120,9 @@ const Header: React.FC<HeaderProps> = ({
                 className="bg-black/40 text-red-100 text-xs rounded-lg px-2 py-1.5 border border-white/10 focus:outline-none focus:ring-1 focus:ring-red-300 cursor-pointer"
                 title="Ação ao clicar no canal"
               >
-                <option value="new_tab">Ação: Nova Aba</option>
+                <option value="fullscreen">Ação: Tela Cheia (com Voltar)</option>
                 <option value="popup">Ação: Pop-up</option>
-                <option value="modal">Ação: Player no App</option>
+                <option value="new_tab">Ação: Nova Aba</option>
               </select>
             </div>
 
