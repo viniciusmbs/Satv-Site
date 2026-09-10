@@ -118,8 +118,11 @@ https://alerquina54105.embedtv.lat/space
 #EXTINF:-1 group-title="FILMES & SÉRIES",Warner Channel
 https://alerquina54105.embedtv.lat/warner
 
+#EXTINF:-1 group-title="INFANTIS", Cartoomito
+https://alerquina54105.embedtv.lat/cartoonito
+
 #EXTINF:-1 group-title="INFANTIS",Cartoon Network
-https://alerquina54105.embedtv.lat/cartoon
+ttps://alerquina54105.embedtv.lat/cartoonnetwork
 
 #EXTINF:-1 group-title="INFANTIS",Nickelodeon
 https://alerquina54105.embedtv.lat/nickelodeon
@@ -133,8 +136,11 @@ https://alerquina54105.embedtv.lat/disneyjunior
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Globo
 https://alerquina54105.embedtv.lat/globo
 
+#EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Globo ES
+https://rdcanais.net/globoes
+
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Globo MG
-https://alerquina54105.embedtv.lat/globomg
+https://rdcanais.net/globomg
 
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Globo SP
 https://alerquina54105.embedtv.lat/globosp
