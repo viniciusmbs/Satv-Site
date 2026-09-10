@@ -1,10 +1,10 @@
 // User Provided Channel Playlist (170+ Brazilian & International TV Channels)
 export const m3uPlaylist = `#EXTM3U
 
-#EXTINF:-1 group-title="VARIEDADES & MÚSICA",Multishow
+#EXTINF:-1 group-title="VARIEDADES",Multishow
 https://alerquina54105.embedtv.lat/multishow
 
-#EXTINF:-1 group-title="VARIEDADES & MÚSICA",Viva
+#EXTINF:-1 group-title="VARIEDADES",Viva
 https://v1.rdse.buzz/globoplaynovelas
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",Telecine Action
@@ -64,13 +64,13 @@ https://alerquina54105.embedtv.lat/starlife
 #EXTINF:-1 group-title="FILMES & SÉRIES",Paramount Network
 https://alerquina54105.embedtv.lat/paramount
 
-#EXTINF:-1 group-title="VARIEDADES & MÚSICA",Comedy Central
+#EXTINF:-1 group-title="VARIEDADES",Comedy Central
 https://alerquina54105.embedtv.lat/comedycentral
 
-#EXTINF:-1 group-title="VARIEDADES & MÚSICA",MTV
+#EXTINF:-1 group-title="MÚSICA",MTV
 https://alerquina54105.embedtv.lat/mtv
 
-#EXTINF:-1 group-title="VARIEDADES & MÚSICA",VH1
+#EXTINF:-1 group-title="MÚSICA",VH1
 https://alerquina54105.embedtv.lat/vh1
 
 #EXTINF:-1 group-title="DOCUMENTÁRIOS",Discovery Channel
@@ -370,7 +370,7 @@ https://alerquina54105.embedtv.lat/nickjr
 #EXTINF:-1 group-title="INFANTIS",Tooncast
 https://alerquina54105.embedtv.lat/tooncast
 
-#EXTINF:-1 group-title="VARIEDADES & MÚSICA",TV Ra-Tim-Bum
+#EXTINF:-1 group-title="VARIEDADES",TV Ra-Tim-Bum
 https://alerquina54105.embedtv.lat/tvratimbum
 
 #EXTINF:-1 group-title="INFANTIS",Zoomoo
@@ -379,22 +379,22 @@ https://alerquina54105.embedtv.lat/zoomoo
 #EXTINF:-1 group-title="INFANTIS",Baby TV
 https://alerquina54105.embedtv.lat/babytv
 
-#EXTINF:-1 group-title="VARIEDADES & MÚSICA",GNT
+#EXTINF:-1 group-title="VARIEDADES",GNT
 https://alerquina54105.embedtv.lat/gnt
 
-#EXTINF:-1 group-title="VARIEDADES & MÚSICA",Bis
+#EXTINF:-1 group-title="MÚSICA",Bis
 https://alerquina54105.embedtv.lat/bis
 
-#EXTINF:-1 group-title="VARIEDADES & MÚSICA",MTV Live
+#EXTINF:-1 group-title="MÚSICA",MTV Live
 https://alerquina54105.embedtv.lat/mtvlive
 
-#EXTINF:-1 group-title="VARIEDADES & MÚSICA",E!
+#EXTINF:-1 group-title="VARIEDADES",E!
 https://alerquina54105.embedtv.lat/e
 
-#EXTINF:-1 group-title="VARIEDADES & MÚSICA",Off
+#EXTINF:-1 group-title="VARIEDADES",Off
 https://alerquina54105.embedtv.lat/off
 
-#EXTINF:-1 group-title="VARIEDADES & MÚSICA",TNT Novelas
+#EXTINF:-1 group-title="VARIEDADES",TNT Novelas
 https://alerquina54105.embedtv.lat/tntnovelas
 
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",TV Gazeta
@@ -439,13 +439,13 @@ https://alerquina54105.embedtv.lat/canaldoboi
 #EXTINF:-1 group-title="DOCUMENTÁRIOS",Agro+
 https://alerquina54105.embedtv.lat/agromais
 
-#EXTINF:-1 group-title="VARIEDADES & MÚSICA",Trace Brasil
+#EXTINF:-1 group-title="MÚSICA",Trace Brasil
 https://alerquina54105.embedtv.lat/tracebrasil
 
-#EXTINF:-1 group-title="VARIEDADES & MÚSICA",Music Box Brasil
+#EXTINF:-1 group-title="MÚSICA",Music Box Brasil
 https://alerquina54105.embedtv.lat/musicboxbrasil
 
-#EXTINF:-1 group-title="VARIEDADES & MÚSICA",Woohoo
+#EXTINF:-1 group-title="VARIEDADES",Woohoo
 https://alerquina54105.embedtv.lat/woohoo
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",Film & Arts
