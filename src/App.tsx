@@ -166,20 +166,20 @@ export default function App() {
     showToast(`URL do canal "${name}" copiada com sucesso!`);
   };
 
-  // Extract unique sorted categories
+  // Extract unique sorted categories alphabetically
   const categories = useMemo(() => {
     const set = new Set<string>();
     channels.forEach((ch) => {
       if (ch.group) set.add(ch.group);
     });
-    return Array.from(set).sort();
+    return Array.from(set).sort((a, b) => a.localeCompare(b, 'pt-BR', { sensitivity: 'base' }));
   }, [channels]);
 
-  // Filter channels according to search, category, and favorites
+  // Filter channels according to search, category, and favorites, sorted alphabetically
   const filteredChannels = useMemo(() => {
     const q = searchQuery.toLowerCase().trim();
 
-    return channels.filter((channel) => {
+    const filtered = channels.filter((channel) => {
       // Favorites filter
       if (showOnlyFavorites && !favorites.has(channel.name)) {
         return false;
@@ -199,6 +199,9 @@ export default function App() {
 
       return true;
     });
+
+    // Sort alphabetically by channel name
+    return filtered.sort((a, b) => a.name.localeCompare(b.name, 'pt-BR', { numeric: true, sensitivity: 'base' }));
   }, [channels, searchQuery, selectedCategory, showOnlyFavorites, favorites]);
 
   // Group filtered channels by group title
