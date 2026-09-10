@@ -125,7 +125,7 @@ https://alerquina54105.embedtv.lat/warner
 https://alerquina54105.embedtv.lat/cartoonito
 
 #EXTINF:-1 group-title="INFANTIS",Cartoon Network
-ttps://alerquina54105.embedtv.lat/cartoonnetwork
+https://alerquina54105.embedtv.lat/cartoonnetwork
 
 #EXTINF:-1 group-title="INFANTIS",Nickelodeon
 https://alerquina54105.embedtv.lat/nickelodeon
