@@ -151,26 +151,6 @@ https://alerquina54105.embedtv.lat/globosp
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Globo RJ
 https://alerquina54105.embedtv.lat/globorj
 
-#EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Globo PR
-https://alerquina54105.embedtv.lat/globopr
-
-#EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Globo SC
-https://alerquina54105.embedtv.lat/globosc
-
-#EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Globo RS
-https://alerquina54105.embedtv.lat/globors
-
-#EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Globo DF
-https://alerquina54105.embedtv.lat/globodf
-
-#EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Globo PE
-https://alerquina54105.embedtv.lat/globope
-
-#EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Globo BA
-https://alerquina54105.embedtv.lat/globoba
-
-#EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Globo CE
-https://alerquina54105.embedtv.lat/globoce
 
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Record TV
 https://alerquina54105.embedtv.lat/record
@@ -192,21 +172,6 @@ https://alerquina54105.embedtv.lat/bandsp
 
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Rede TV
 https://alerquina54105.embedtv.lat/redetv
-
-#EXTINF:-1 group-title="VARIEDADES & MÚSICA",Pluto TV
-https://alerquina54105.embedtv.lat/plutotv
-
-#EXTINF:-1 group-title="FILMES & SÉRIES",Pluto TV Filmes
-https://alerquina54105.embedtv.lat/plutofilmes
-
-#EXTINF:-1 group-title="FILMES & SÉRIES",Pluto TV Séries
-https://alerquina54105.embedtv.lat/plutoseries
-
-#EXTINF:-1 group-title="VARIEDADES & MÚSICA",Pluto TV Comédia
-https://alerquina54105.embedtv.lat/plutocomedia
-
-#EXTINF:-1 group-title="VARIEDADES & MÚSICA",Pluto TV Reality
-https://alerquina54105.embedtv.lat/plutoreality
 
 #EXTINF:-1 group-title="ESPORTES & PPV",Pluto TV Esportes
 https://alerquina54105.embedtv.lat/plutoesportes
@@ -436,8 +401,6 @@ https://alerquina54105.embedtv.lat/off
 #EXTINF:-1 group-title="VARIEDADES & MÚSICA",TNT Novelas
 https://alerquina54105.embedtv.lat/tntnovelas
 
-#EXTINF:-1 group-title="VARIEDADES & MÚSICA",Polishop
-https://alerquina54105.embedtv.lat/polishop
 
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",TV Gazeta
 https://alerquina54105.embedtv.lat/tvgazeta
@@ -449,7 +412,7 @@ https://alerquina54105.embedtv.lat/redevida
 https://alerquina54105.embedtv.lat/cancaonova
 
 #EXTINF:-1 group-title="RELIGIOSOS",TV Aparecida
-https://alerquina54105.embedtv.lat/tvaparecida
+https://www.youtube.com/c/tvaparecidaoficial/live
 
 #EXTINF:-1 group-title="RELIGIOSOS",Novo Tempo
 https://alerquina54105.embedtv.lat/novotempo
