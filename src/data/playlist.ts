@@ -1,7 +1,7 @@
 // User Provided Channel Playlist (170+ Brazilian & International TV Channels)
 export const m3uPlaylist = `#EXTM3U
 
-#EXTINF:-1 group-title="VARIEDADES & MÚSICA",Multishow
+#EXTINF:-1 group-title="VARIEDADES",Multishow
 https://alerquina54105.embedtv.lat/multishow
 
 #EXTINF:-1 group-title="VARIEDADES & MÚSICA",Viva
