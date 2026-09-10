@@ -142,6 +142,9 @@ https://rdcanais.net/globoes
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Globo MG
 https://rdcanais.net/globomg
 
+#EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Globo MG2
+https://rdcanais.net/globomg
+
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Globo SP
 https://alerquina54105.embedtv.lat/globosp
 
