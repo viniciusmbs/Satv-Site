@@ -4,6 +4,9 @@ export const m3uPlaylist = `#EXTM3U
 #EXTINF:-1 group-title="VARIEDADES & MÚSICA",Multishow
 https://alerquina54105.embedtv.lat/multishow
 
+#EXTINF:-1 group-title="VARIEDADES & MÚSICA",Viva
+https://v1.rdse.buzz/globoplaynovelas
+
 #EXTINF:-1 group-title="FILMES & SÉRIES"",Telecine Action
 https://alerquina54105.embedtv.lat/telecineaction
 
