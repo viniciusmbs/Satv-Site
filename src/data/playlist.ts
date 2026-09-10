@@ -7,7 +7,7 @@ https://alerquina54105.embedtv.lat/multishow
 #EXTINF:-1 group-title="VARIEDADES & MÚSICA",Viva
 https://v1.rdse.buzz/globoplaynovelas
 
-#EXTINF:-1 group-title="FILMES & SÉRIES"",Telecine Action
+#EXTINF:-1 group-title="FILMES & SÉRIES",Telecine Action
 https://alerquina54105.embedtv.lat/telecineaction
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",Telecine Fun
@@ -121,7 +121,7 @@ https://alerquina54105.embedtv.lat/space
 #EXTINF:-1 group-title="FILMES & SÉRIES",Warner Channel
 https://alerquina54105.embedtv.lat/warner
 
-#EXTINF:-1 group-title="INFANTIS", Cartoomito
+#EXTINF:-1 group-title="INFANTIS",Cartoonito
 https://alerquina54105.embedtv.lat/cartoonito
 
 #EXTINF:-1 group-title="INFANTIS",Cartoon Network
@@ -153,7 +153,6 @@ https://alerquina54105.embedtv.lat/globosp
 
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Globo RJ
 https://alerquina54105.embedtv.lat/globorj
-
 
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Record TV
 https://alerquina54105.embedtv.lat/record
@@ -359,9 +358,6 @@ https://alerquina54105.embedtv.lat/curta
 #EXTINF:-1 group-title="DOCUMENTÁRIOS",Love Nature
 https://alerquina54105.embedtv.lat/lovenature
 
-#EXTINF:-1 group-title="INFANTIS",Cartoonito
-https://alerquina54105.embedtv.lat/cartoonito
-
 #EXTINF:-1 group-title="INFANTIS",Gloob
 https://alerquina54105.embedtv.lat/gloob
 
@@ -386,7 +382,6 @@ https://alerquina54105.embedtv.lat/babytv
 #EXTINF:-1 group-title="VARIEDADES & MÚSICA",GNT
 https://alerquina54105.embedtv.lat/gnt
 
-
 #EXTINF:-1 group-title="VARIEDADES & MÚSICA",Bis
 https://alerquina54105.embedtv.lat/bis
 
@@ -401,7 +396,6 @@ https://alerquina54105.embedtv.lat/off
 
 #EXTINF:-1 group-title="VARIEDADES & MÚSICA",TNT Novelas
 https://alerquina54105.embedtv.lat/tntnovelas
-
 
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",TV Gazeta
 https://alerquina54105.embedtv.lat/tvgazeta
@@ -432,9 +426,6 @@ https://alerquina54105.embedtv.lat/tvcultura
 
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Futura
 https://alerquina54105.embedtv.lat/futura
-
-#EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Aparecida
-https://www.youtube.com/c/tvaparecidaoficial/live
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",Canal Brasil
 https://alerquina54105.embedtv.lat/canalbrasil
