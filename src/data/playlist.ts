@@ -240,7 +240,7 @@ https://alerquina54105.embedtv.lat/combate
 https://alerquina54105.embedtv.lat/bandsports
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",A&E
-https://alerquina54105.embedtv.lat/ae
+https://rdcanais.net/ae
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",AMC
 https://alerquina54105.embedtv.lat/amc
