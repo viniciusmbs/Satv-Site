@@ -386,8 +386,6 @@ https://alerquina54105.embedtv.lat/babytv
 #EXTINF:-1 group-title="VARIEDADES & MÚSICA",GNT
 https://alerquina54105.embedtv.lat/gnt
 
-#EXTINF:-1 group-title="VARIEDADES & MÚSICA",Viva
-https://alerquina54105.embedtv.lat/viva
 
 #EXTINF:-1 group-title="VARIEDADES & MÚSICA",Bis
 https://alerquina54105.embedtv.lat/bis
