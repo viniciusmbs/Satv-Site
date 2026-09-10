@@ -469,12 +469,6 @@ https://alerquina54105.embedtv.lat/tvcultura
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",TV Senado
 https://alerquina54105.embedtv.lat/tvsenado
 
-#EXTINF:-1 group-title="TV ABERTA & REGIONAIS",TV Câmara
-https://alerquina54105.embedtv.lat/tvcamara
-
-#EXTINF:-1 group-title="TV ABERTA & REGIONAIS",TV Justiça
-https://alerquina54105.embedtv.lat/tvjustica
-
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Futura
 https://alerquina54105.embedtv.lat/futura
 
