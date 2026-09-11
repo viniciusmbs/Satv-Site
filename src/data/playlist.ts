@@ -426,7 +426,7 @@ https://alerquina54105.embedtv.lat/tvcultura
 https://alerquina54105.embedtv.lat/futura
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",Canal Brasil
-https://alerquina54105.embedtv.lat/canalbrasil
+https://rdcanais.net/canalbrasil
 
 #EXTINF:-1 group-title="DOCUMENTÁRIOS",Canal Rural
 https://alerquina54105.embedtv.lat/canalrural
