@@ -184,28 +184,28 @@ https://alerquina54105.embedtv.lat/fx
 https://alerquina54105.embedtv.lat/fxm
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",HBO
-https://rdcanais.net/hbo
+https://alerquina54105.embedtv.lat/hbo
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",HBO 2
-https://w1.rdse.buzz/hbo2
+https://alerquina54105.embedtv.lat/hbo2
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",HBO Family
-https://v1.rdse.buzz/hbofamily
+https://alerquina54105.embedtv.lat/hbofamily
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",HBO Mundi
-https://v1.rdse.buzz/hbomundi
+https://alerquina54105.embedtv.lat/hbomundi
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",HBO Plus
-https://v1.rdse.buzz/hboplus
+https://alerquina54105.embedtv.lat/hboplus
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",HBO Pop
-https://v1.rdse.buzz/hbopop
+https://alerquina54105.embedtv.lat/hbopop
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",HBO Signature
 https://v1.rdse.buzz/hbosignature
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",HBO Xtreme
-https://v1.rdse.buzz/hboxtreme
+https://alerquina54105.embedtv.lat/hboxtreme
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",Megapix
 https://alerquina54105.embedtv.lat/megapix
@@ -229,25 +229,25 @@ https://alerquina54105.embedtv.lat/tnt
 https://alerquina54105.embedtv.lat/tntseries
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",Telecine Action
-https://rdcanais.net/telecineaction
+https://alerquina54105.embedtv.lat/telecineaction
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",Telecine Cult
-https://rdcanais.net/telecinecult
+https://alerquina54105.embedtv.lat/telecinecult
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",Telecine Fun
 https://rdcanais.net/telecinefum
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",Telecine Pipoca
-https://rdcanais.net/telecinepipoca
+https://alerquina54105.embedtv.lat/telecinepipoca
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",Telecine Premium
 https://alerquina54105.embedtv.lat/telecinepremium
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",Telecine Touch
-https://rdcanais.net/telecinetouch
+https://alerquina54105.embedtv.lat/telecinetouch
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",Universal TV
-https://rdcanais.net/universaltv
+https://alerquina54105.embedtv.lat/universaltv
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",Warner Channel
 https://alerquina54105.embedtv.lat/warnerchannel
@@ -262,7 +262,7 @@ https://alerquina54105.embedtv.lat/cartoonnetwork
 https://alerquina54105.embedtv.lat/cartoonito
 
 #EXTINF:-1 group-title="INFANTIS",Discovery Kids
-https://rdcanais.net/discoverykids
+https://alerquina54105.embedtv.lat/discoverykids
 
 #EXTINF:-1 group-title="INFANTIS",Disney Channel
 https://alerquina54105.embedtv.lat/disney
@@ -298,7 +298,7 @@ https://alerquina54105.embedtv.lat/mtvlive
 https://alerquina54105.embedtv.lat/musicboxbrasil
 
 #EXTINF:-1 group-title="NOTÍCIAS",BandNews
-https://rdcanais.net/bandnews
+https://alerquina54105.embedtv.lat/bandnews
 
 #EXTINF:-1 group-title="NOTÍCIAS",CNN Brasil
 https://alerquina54105.embedtv.lat/cnnbrasil
