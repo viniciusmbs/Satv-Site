@@ -2,7 +2,7 @@
 export const m3uPlaylist = `#EXTM3U
 
 #EXTINF:-1 group-title="VARIEDADES",Multishow
-https://alerquina54105.embedtv.lat/multishow
+https://rdcanais.net/multishowalternativo
 
 #EXTINF:-1 group-title="VARIEDADES",Viva
 https://v1.rdse.buzz/globoplaynovelas
