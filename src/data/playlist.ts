@@ -1,5 +1,6 @@
-#EXTM3U
+// User Provided Channel Playlist (170+ Brazilian & International TV Channels)
 
+export const m3uPlaylist = `#EXTM3U
 #EXTINF:-1 group-title="DOCUMENTÁRIOS",Agro+
 https://alerquina54105.embedtv.lat/agromais
 
