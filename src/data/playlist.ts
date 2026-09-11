@@ -52,15 +52,6 @@ https://alerquina54105.embedtv.lat/fx
 #EXTINF:-1 group-title="FILMES & SÉRIES",FXM
 https://alerquina54105.embedtv.lat/fxm
 
-#EXTINF:-1 group-title="FILMES & SÉRIES",Star Channel
-https://alerquina54105.embedtv.lat/starchannel
-
-#EXTINF:-1 group-title="FILMES & SÉRIES",Star Hits
-https://alerquina54105.embedtv.lat/starhits
-
-#EXTINF:-1 group-title="FILMES & SÉRIES",Star Life
-https://alerquina54105.embedtv.lat/starlife
-
 #EXTINF:-1 group-title="FILMES & SÉRIES",Paramount Network
 https://alerquina54105.embedtv.lat/paramount
 
