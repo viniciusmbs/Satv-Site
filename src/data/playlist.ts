@@ -165,7 +165,7 @@ https://alerquina54105.embedtv.lat/sbt
 https://alerquina54105.embedtv.lat/sbtsp
 
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Band
-https://alerquina54105.embedtv.lat/band
+https://v1.rdse.buzz/bandsp
 
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Band SP
 https://alerquina54105.embedtv.lat/bandsp
