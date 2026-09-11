@@ -1,6 +1,6 @@
 // User Provided Channel Playlist (170+ Brazilian & International TV Channels)
-
 export const m3uPlaylist = `#EXTM3U
+
 #EXTINF:-1 group-title="DOCUMENTÁRIOS",Agro+
 https://alerquina54105.embedtv.lat/agromais
 
@@ -79,8 +79,6 @@ https://alerquina54105.embedtv.lat/tlc
 #EXTINF:-1 group-title="DOCUMENTÁRIOS",Travel Box Brasil
 https://alerquina54105.embedtv.lat/travelboxbrasil
 
-
-
 #EXTINF:-1 group-title="ESPORTES & PPV",Band Sports
 https://alerquina54105.embedtv.lat/bandsports
 
@@ -155,8 +153,6 @@ https://alerquina54105.embedtv.lat/sporttv2
 
 #EXTINF:-1 group-title="ESPORTES & PPV",SportTV 3
 https://alerquina54105.embedtv.lat/sporttv3
-
-
 
 #EXTINF:-1 group-title="ESPORTES & PPV",UFC Fight Pass
 https://alerquina54105.embedtv.lat/ufcfightpass
@@ -290,8 +286,6 @@ https://alerquina54105.embedtv.lat/warner
 #EXTINF:-1 group-title="FILMES & SÉRIES",Warner Channel
 https://alerquina54105.embedtv.lat/warner
 
-
-
 #EXTINF:-1 group-title="INFANTIS",Baby TV
 https://alerquina54105.embedtv.lat/babytv
 
@@ -328,9 +322,6 @@ https://alerquina54105.embedtv.lat/tooncast
 #EXTINF:-1 group-title="INFANTIS",Zoomoo
 https://alerquina54105.embedtv.lat/zoomoo
 
-
-
-
 #EXTINF:-1 group-title="MÚSICA",Bis
 https://alerquina54105.embedtv.lat/bis
 
@@ -349,8 +340,6 @@ https://alerquina54105.embedtv.lat/tracebrasil
 #EXTINF:-1 group-title="MÚSICA",VH1
 https://alerquina54105.embedtv.lat/vh1
 
-
-
 #EXTINF:-1 group-title="NOTÍCIAS",BandNews
 https://alerquina54105.embedtv.lat/bandnews
 
@@ -365,8 +354,6 @@ https://alerquina54105.embedtv.lat/jovempan
 
 #EXTINF:-1 group-title="NOTÍCIAS",Record News
 https://alerquina54105.embedtv.lat/recordnews
-
-
 
 #EXTINF:-1 group-title="RELIGIOSOS",Canção Nova
 https://alerquina54105.embedtv.lat/cancaonova
@@ -401,13 +388,20 @@ https://alerquina54105.embedtv.lat/tvevangelizar
 #EXTINF:-1 group-title="RELIGIOSOS",TV Pai Eterno
 https://alerquina54105.embedtv.lat/tvpaieerno
 
-
-
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Band
 https://v1.rdse.buzz/bandsp
 
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Band SP
 https://alerquina54105.embedtv.lat/bandsp
+
+#EXTINF:-1 group-title="TV ABERTA & REGIONAIS",GLOBO ES TV GAZETA VITÓRIA 
+http://up.kiwi/351921603109/34939156/296754
+
+#EXTINF:-1 group-title="TV ABERTA & REGIONAIS",GLOBO MG TV INTEGRAÇÃO JUIZ DE FORA 
+http://up.kiwi/351921603109/34939156/296737
+
+#EXTINF:-1 group-title="TV ABERTA & REGIONAIS",GLOBO MG TV INTEGRAÇÃO JUIZ DE FORA 
+http://up.kiwi/351921603109/34939156/296738
 
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Globo
 https://alerquina54105.embedtv.lat/globo
@@ -454,8 +448,6 @@ https://alerquina54105.embedtv.lat/tvcultura
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",TV Gazeta
 https://alerquina54105.embedtv.lat/tvgazeta
 
-
-
 #EXTINF:-1 group-title="VARIEDADES",Comedy Central
 https://alerquina54105.embedtv.lat/comedycentral
 
@@ -481,4 +473,4 @@ https://alerquina54105.embedtv.lat/tvratimbum
 https://v1.rdse.buzz/globoplaynovelas
 
 #EXTINF:-1 group-title="VARIEDADES",Woohoo
-https://alerquina54105.embedtv.lat/woohoo
+https://alerquina54105.embedtv.lat/woohoo"`;
