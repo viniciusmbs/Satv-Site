@@ -1,4 +1,4 @@
-#EXTM3U
+export const m3uPlaylist = `#EXTM3U
 
 #EXTINF:-1 group-title="DOCUMENTÁRIOS",Agro+
 https://alerquina54105.embedtv.lat/agromais
@@ -77,8 +77,6 @@ https://alerquina54105.embedtv.lat/tlc
 
 #EXTINF:-1 group-title="DOCUMENTÁRIOS",Travel Box Brasil
 https://alerquina54105.embedtv.lat/travelboxbrasil
-
-
 
 #EXTINF:-1 group-title="ESPORTES & PPV",Band Sports
 https://alerquina54105.embedtv.lat/bandsports
@@ -160,7 +158,6 @@ https://rdcanais.net/canaloff
 
 #EXTINF:-1 group-title="ESPORTES & PPV",UFC Fight Pass
 https://alerquina54105.embedtv.lat/ufcfightpass
-
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",A&E
 https://v1.rdse.buzz/ae
@@ -255,8 +252,6 @@ https://rdcanais.net/universaltv
 #EXTINF:-1 group-title="FILMES & SÉRIES",Warner Channel
 https://alerquina54105.embedtv.lat/warnerchannel
 
-
-
 #EXTINF:-1 group-title="INFANTIS",Baby TV
 https://alerquina54105.embedtv.lat/babytv
 
@@ -290,9 +285,6 @@ https://alerquina54105.embedtv.lat/tooncast
 #EXTINF:-1 group-title="INFANTIS",Zoomoo
 https://alerquina54105.embedtv.lat/zoomoo
 
-
-
-
 #EXTINF:-1 group-title="MÚSICA",Bis
 https://alerquina54105.embedtv.lat/bis
 
@@ -305,14 +297,11 @@ https://alerquina54105.embedtv.lat/mtvlive
 #EXTINF:-1 group-title="MÚSICA",Music Box Brasil
 https://alerquina54105.embedtv.lat/musicboxbrasil
 
-
-
-
 #EXTINF:-1 group-title="NOTÍCIAS",BandNews
 https://rdcanais.net/bandnews
 
 #EXTINF:-1 group-title="NOTÍCIAS",CNN Brasil
-https://rdcanais.net/cnnbrasil
+https://alerquina54105.embedtv.lat/cnnbrasil
 
 #EXTINF:-1 group-title="NOTÍCIAS",GloboNews
 https://alerquina54105.embedtv.lat/globonews
@@ -322,7 +311,6 @@ https://alerquina54105.embedtv.lat/jovempan
 
 #EXTINF:-1 group-title="NOTÍCIAS",Record News
 https://alerquina54105.embedtv.lat/recordnews
-
 
 #EXTINF:-1 group-title="RELIGIOSOS",Canção Nova
 https://alerquina54105.embedtv.lat/cancaonova
@@ -354,7 +342,6 @@ https://rdcanais.net/aparecida
 #EXTINF:-1 group-title="RELIGIOSOS",TV Pai Eterno
 https://alerquina54105.embedtv.lat/tvpaieerno
 
-
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Band
 https://v1.rdse.buzz/bandsp
 
@@ -369,7 +356,6 @@ https://rdcanais.net/globoes
 
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Globo MG
 https://rdcanais.net/globomg
-
 
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",Globo RJ
 https://alerquina54105.embedtv.lat/globorj
@@ -396,11 +382,10 @@ https://alerquina54105.embedtv.lat/sbt
 https://rdcanais.net/tvbrasil
 
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",TV Cultura
-https://rdcanais.net/tvcultura
+https://alerquina54105.embedtv.lat/tvcultura
 
 #EXTINF:-1 group-title="TV ABERTA & REGIONAIS",TV Gazeta
 https://alerquina54105.embedtv.lat/tvgazeta
-
 
 #EXTINF:-1 group-title="VARIEDADES",Comedy Central
 https://alerquina54105.embedtv.lat/comedycentral
@@ -421,4 +406,4 @@ https://alerquina54105.embedtv.lat/tntnovelas
 https://v1.rdse.buzz/globoplaynovelas
 
 #EXTINF:-1 group-title="VARIEDADES",Woohoo
-https://v1.rdse.buzz/woohoo
+https://v1.rdse.buzz/woohoo`;
