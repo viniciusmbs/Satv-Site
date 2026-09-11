@@ -8,22 +8,22 @@ https://rdcanais.net/multishowalternativo
 https://v1.rdse.buzz/globoplaynovelas
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",Telecine Action
-https://alerquina54105.embedtv.lat/telecineaction
+https://rdcanais.net/telecineaction
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",Telecine Fun
-https://alerquina54105.embedtv.lat/telecinefum
+https://rdcanais.net/telecinefum
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",Telecine Pipoca
-https://alerquina54105.embedtv.lat/telecinepipoca
+https://rdcanais.net/telecinepipoca
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",Telecine Touch
-https://alerquina54105.embedtv.lat/telecinetouch
+https://rdcanais.net/telecinetouch
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",Telecine Cult
-https://alerquina54105.embedtv.lat/telecinecult
+https://rdcanais.net/telecinecult
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",HBO
-https://alerquina54105.embedtv.lat/hbo
+https://rdcanais.net/hbo
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",HBO 2
 https://alerquina54105.embedtv.lat/hbo2
@@ -357,10 +357,10 @@ https://alerquina54105.embedtv.lat/hgtv
 https://alerquina54105.embedtv.lat/foodnetwork
 
 #EXTINF:-1 group-title="DOCUMENTÁRIOS",Fish TV
-https://alerquina54105.embedtv.lat/fishtv
+https://rdcanais.net/fishtv
 
 #EXTINF:-1 group-title="DOCUMENTÁRIOS",Arte 1
-https://alerquina54105.embedtv.lat/arte1
+https://rdcanais.net/arte1
 
 #EXTINF:-1 group-title="DOCUMENTÁRIOS",Curta!
 https://alerquina54105.embedtv.lat/curta
