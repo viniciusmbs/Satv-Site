@@ -26,25 +26,25 @@ https://rdcanais.net/telecinecult
 https://rdcanais.net/hbo
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",HBO 2
-https://alerquina54105.embedtv.lat/hbo2
+https://w1.rdse.buzz/hbo2
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",HBO Signature
-https://alerquina54105.embedtv.lat/hbosignature
+https://v1.rdse.buzz/hbosignature
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",HBO Family
-https://alerquina54105.embedtv.lat/hbofamily
+https://v1.rdse.buzz/hbofamily
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",HBO Plus
-https://alerquina54105.embedtv.lat/hboplus
+https://v1.rdse.buzz/hboplus
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",HBO Mundi
-https://alerquina54105.embedtv.lat/hbomundi
+https://v1.rdse.buzz/hbomundi
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",HBO Xtreme
-https://alerquina54105.embedtv.lat/hboxtreme
+https://v1.rdse.buzz/hboxtreme
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",HBO Pop
-https://alerquina54105.embedtv.lat/hbopop
+https://v1.rdse.buzz/hbopop
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",FX
 https://alerquina54105.embedtv.lat/fx
@@ -92,13 +92,10 @@ https://alerquina54105.embedtv.lat/sonychannel
 https://alerquina54105.embedtv.lat/axn
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",Universal TV
-https://alerquina54105.embedtv.lat/universal
-
-#EXTINF:-1 group-title="FILMES & SÉRIES",Studio Universal
-https://alerquina54105.embedtv.lat/universalstudio
+https://rdcanais.net/universaltv
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",Syfy
-https://alerquina54105.embedtv.lat/syfy
+https://rdcanais.net/syfy
 
 #EXTINF:-1 group-title="FILMES & SÉRIES",TNT
 https://alerquina54105.embedtv.lat/tnt
